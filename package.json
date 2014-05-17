@@ -1,0 +1,31 @@
+{
+  "name": "octofications",
+  "version": "0.0.1",
+  "description": "github feed as notifications in your desktop",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kessler/node-octofications"
+  },
+  "keywords": [
+    "github",
+    "notifications"
+  ],
+  "author": "Yaniv Kessler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kessler/node-octofications/issues"
+  },
+  "homepage": "https://github.com/kessler/node-octofications",
+  "dependencies": {
+    "debug": "^0.8.1",
+    "feedparser": "^0.16.6",
+    "lru-cache": "^2.5.0",
+    "node-notifier": "^2.0.4",
+    "rc": "^0.3.5",
+    "tempus-fugit": "0.0.5"
+  }
+}
