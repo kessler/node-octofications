@@ -29,3 +29,8 @@ windows:
 ```
 set DEBUG=octofications*
 ```
+### todo
+- daemonize 
+- publish to npm
+- change icon ?
+- do something meaningful when notification is clicked (ie open a relevant webpage)
