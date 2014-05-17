@@ -1,9 +1,11 @@
 # octofications
-
+github feed as notifications in your desktop
+### install
 currently no fancy installations or startup, just clone and do
 ```
 	node index
 ```
+_requires [node.js](http://nodejs.org) to be installed, obviously_
 ### configuration
 of course some configuration is needed, naturally its using [rc](https://github.com/dominictarr/rc): 
 ```
