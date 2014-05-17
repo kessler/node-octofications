@@ -1,6 +1,6 @@
 {
   "name": "octofications",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "github feed as notifications in your desktop",
   "main": "index.js",
   "scripts": {
