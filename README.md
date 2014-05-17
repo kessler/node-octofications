@@ -10,9 +10,12 @@ of course some configuration is needed, naturally its using [rc](https://github.
 {
 	"authenticationToken": "yourAuthToken",
 	"user": "yourGithubUser",
-	"pollIntervalInSeconds": 60	
+	"pollInterval": {
+		"second": 60
+	}	
 }
 ```
+There more information [here](https://github.com/kessler/tempus-fugit#the-interval-object) on how to customize pollInterval  
 ### misc.
 if its not working then check that you set the proper permissions for the token
 

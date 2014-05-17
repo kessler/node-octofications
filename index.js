@@ -23,9 +23,7 @@ function onFeedItem(item) {
 		cache.set(item.title, true)
 	}
 }
-
-var interval = { second: config.pollIntervalInSeconds }
 	
-var job = schedule(interval, feed(onFeedItem))
+var job = schedule(config.pollInterval, feed(onFeedItem))
 
 debug('feed job scheduled, %s', inspect(job))
