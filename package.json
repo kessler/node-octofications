@@ -26,6 +26,7 @@
     "lru-cache": "^2.5.0",
     "node-notifier": "^2.0.4",
     "rc": "^0.3.5",
-    "tempus-fugit": "0.0.5"
+    "tempus-fugit": "0.0.5",
+    "daemonize2": "0.4.2"
   }
 }
