@@ -11,6 +11,14 @@ case "start":
 case "stop":
     daemon.stop();
     break;
+case "status":
+    var pid = daemon.status();
+    if (pid) {
+        console.info("Running on pid " + pid);
+    } else {
+        console.info("Not running");
+    }
+    break;
 default:
-    console.log("Usage: [start|stop]");
+    console.log("Usage: [start|stop|status]");
 }
