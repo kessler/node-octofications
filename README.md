@@ -1,9 +1,14 @@
 # octofications
 github feed as notifications in your desktop
 ### install
-currently no fancy installations or startup, just clone and do
+just clone and do
 ```
 	node index
+```
+or
+
+```
+	./daemon start
 ```
 _requires [node.js](http://nodejs.org) to be installed, obviously_
 ### configuration
@@ -33,7 +38,6 @@ windows:
 set DEBUG=octofications*
 ```
 ### todo
-- daemonize 
 - publish to npm
 - change icon ?
 - do something meaningful when notification is clicked (ie open a relevant webpage)
