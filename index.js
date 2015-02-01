@@ -24,11 +24,11 @@ feedEmitter.on('item', function(item, count) {
 		debug('feed item %s, %s, fl: %s', item.title, item.link, firstLaunch);
 
 		// avoid the swamp of old feed items when launching 1st time
-		//if (!firstLaunch) {
+		if (!firstLaunch) {
 			setTimeout(function() {			
 				notifier.notify(itemToMessage(item));
 			}, count * 5000);
-		//}
+		}
 
 		cache.set(item.title, true);
 	}
