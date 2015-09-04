@@ -8,7 +8,7 @@ just clone and do
 or
 
 ```
-	./daemon start
+	pm2 start pm2.json
 ```
 _requires [node.js](http://nodejs.org) to be installed, obviously_
 ### configuration
@@ -29,15 +29,9 @@ if its not working then check that you set the proper permissions for the token
 octofications is based on [node-notifier](https://github.com/mikaelbr/node-notifier) so out of the box it works on linux and mac, windows requires [growl](http://growl.info/).
 
 ### debug
-linux based:
-```
-export DEBUG=octofications*
-```
-windows:
-```
-set DEBUG=octofications*
-```
+
+set the DEBUG environment variable to "octofications*"
+
 ### todo
 - publish to npm
 - change icon ?
-- do something meaningful when notification is clicked (ie open a relevant webpage)
