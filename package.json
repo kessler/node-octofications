@@ -21,13 +21,13 @@
   },
   "homepage": "https://github.com/kessler/node-octofications",
   "dependencies": {
-    "daemonize2": "0.4.2",
     "debug": "^0.8.1",
     "feedparser": "^0.16.6",
+    "hyperquest": "^1.2.0",
     "isos": "0.0.3",
     "lru-cache": "^2.5.0",
-    "node-notifier": "^4.1.0",
+    "node-notifier": "^4.2.3",
     "rc": "^0.3.5",
-    "tempus-fugit": "^1.0.1"
+    "tempus-fugit": "^2.2.0"
   }
 }

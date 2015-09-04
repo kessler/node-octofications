@@ -1,0 +1,6 @@
+{
+	"name": "octofications",
+	"script": "index.js",
+	"watch": false,
+	"log": "./node-octofications.log"
+}
